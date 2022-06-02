@@ -1,0 +1,36 @@
+{
+  "name": "express-ussd-sample",
+  "version": "1.0.0",
+  "description": "Sample USSD app Code using Arkesel's USSD Platform",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkeselDev/express-ussd-sample.git"
+  },
+  "keywords": [
+    "USSD",
+    "Arkesel",
+    "Sample",
+    "Code",
+    "Communications",
+    "Cloud"
+  ],
+  "author": "Komla Adzam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArkeselDev/express-ussd-sample/issues"
+  },
+  "homepage": "https://github.com/ArkeselDev/express-ussd-sample#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "memory-cache": "^0.2.0",
+    "nodemon": "^2.0.16"
+  }
+}
